@@ -1,0 +1,11 @@
+--- build.xml.old	2010-05-10 15:30:03.000000000 +0200
++++ build.xml	2010-05-10 15:30:32.000000000 +0200
+@@ -26,7 +26,7 @@
+     <mkdir dir="${dist}"/>
+ 
+     <!-- Put everything in ${build} into the JLzma.jar file -->
+-    <jar manifest="MainClass.mf" jarfile="${dist}/JLzma.jar" basedir="${build}"/>
++    <jar manifest="MainClass.mf" jarfile="${dist}/JLzma.jar" basedir="${build}" index="true" compress="true"/>
+   </target>
+ 
+   <target name="clean"

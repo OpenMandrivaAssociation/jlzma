@@ -1,0 +1,13 @@
+--- build.xml.old	2010-05-10 15:30:03.000000000 +0200
++++ build.xml	2010-05-10 15:35:18.000000000 +0200
+@@ -35,5 +35,10 @@
+     <delete dir="${build}"/>
+     <delete dir="${dist}"/>
+   </target>
++  
++  <target name="javadoc">
++  	<mkdir dir="javadoc" />
++  	<javadoc sourcepath="src" destdir="javadoc" />
++  </target>
+ </project>
+ 
