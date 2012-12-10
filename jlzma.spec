@@ -60,3 +60,14 @@ rm -rf $RPM_BUILD_ROOT
 %files javadoc
 %defattr(-,root,root,-)
 %{_javadocdir}/*
+
+
+%changelog
+* Sat Oct 02 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 4.23.1-1mdv2011.0
++ Revision: 582604
+- fix license version
+- cosmetics
+
+  + Jonathan Bayle <mrhide@mandriva.org>
+    - import jlzma
+
