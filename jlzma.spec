@@ -1,7 +1,7 @@
 Name:		jlzma
 Summary:	Java port of the LZMA SDK 4.23
 Version:	4.23.1
-Release:	%mkrel 1
+Release:	2
 Source0:	http://downloads.sourceforge.net/project/p7zip/java_lzma/4.23.01/java_lzma_4.23.1.tar.bz2
 Patch0:		jlzma-4.23.1-fix-jar.patch
 Patch1:		jlzma-4.23.1-javadoc-task.patch
