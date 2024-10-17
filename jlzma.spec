@@ -5,7 +5,7 @@ Release:	2
 Source0:	http://downloads.sourceforge.net/project/p7zip/java_lzma/4.23.01/java_lzma_4.23.1.tar.bz2
 Patch0:		jlzma-4.23.1-fix-jar.patch
 Patch1:		jlzma-4.23.1-javadoc-task.patch
-URL:		http://p7zip.sourceforge.net/
+URL:		https://p7zip.sourceforge.net/
 
 Group:		Development/Java
 License:	LGPLv2.1 or CPL
